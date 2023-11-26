@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entity
 {
-    public static class Timestatic
-    {
-        public static TimeTable TimeTables = new TimeTable();
-    }
-
+   
     public class TimeTable
     {
         public List<Time> Times { get; set; } = new List<Time>();
